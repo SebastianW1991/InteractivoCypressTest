@@ -1,0 +1,27 @@
+{
+  "name": "interactivo-cypress-test",
+  "version": "1.0.0",
+  "description": "test of interactivo webpage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open",
+    "cypress:headless": "cypress run --headless --browser chrome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SebastianW1991/InteractivoCypressTest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SebastianW1991/InteractivoCypressTest/issues"
+  },
+  "homepage": "https://github.com/SebastianW1991/InteractivoCypressTest",
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^4.6.0",
+    "cypress-xpath": "^1.4.0"
+  }
+}
